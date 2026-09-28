@@ -12,7 +12,9 @@ def single_calculation():
 		res = num1 - num2
 	elif op == '*':
 		res = num1 * num2
-
+  elif op == '/':
+		res = num1 / num2  
+#hier geändert
 	print(f"The answer is {res}")
 
 
